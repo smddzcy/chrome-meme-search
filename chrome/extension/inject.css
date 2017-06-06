@@ -1,0 +1,11 @@
+.injectApp {
+  position: fixed;
+  top: 19%;
+  width: 70%;
+  margin-left: 15%;
+  height: auto;
+  overflow: hidden;
+  transition: visibility 0.1s, opacity 0.1s linear;
+  z-index: 2147483647 !important;
+  pointer-events: all;
+}
