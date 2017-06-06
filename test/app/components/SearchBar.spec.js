@@ -18,6 +18,8 @@ function setup(propOverrides) {
   return { props, output };
 }
 
+// TODO: Implement the tests.
+/*
 function getTextContent(elem) {
   const children = Array.isArray(elem.props.children) ?
     elem.props.children : [elem.props.children];
@@ -27,6 +29,7 @@ function getTextContent(elem) {
     out + (child.props ? getTextContent(child) : child)
   , '');
 }
+*/
 
 describe('app SearchBar component', () => {
   it('should render correctly', () => {
