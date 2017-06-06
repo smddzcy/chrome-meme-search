@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "name": "Meme Search",
+  "manifest_version": 2,
+  "description": "Spotlight search for memes. Press Ctrl + M, type in your keywords, and click on a meme to copy its URL!",
+  "browser_action": {
+    "default_title": "Meme Search"
+  },
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "web_accessible_resources": [
+    "inject.html"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [ "tabs", "*://*/*" ],
+  "content_security_policy": "default-src 'self'; script-src 'self'; connect-src 'self' http://memeful.com/; style-src * 'unsafe-inline'; img-src 'self' data:;"
+}
