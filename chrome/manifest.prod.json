@@ -3,9 +3,6 @@
   "name": "Meme Search",
   "manifest_version": 2,
   "description": "Spotlight search for memes. Press Ctrl + M, type in your keywords, and click on a meme to copy its URL!",
-  "browser_action": {
-    "default_title": "Meme Search"
-  },
   "icons": {
     "16": "img/icon-16.png",
     "48": "img/icon-48.png",
