@@ -1240,7 +1240,7 @@ chokidar@^1.0.0:
   optionalDependencies:
     fsevents "^1.0.0"
 
-chromedriver@^2.19.0:
+chromedriver@^2.29.0:
   version "2.29.0"
   resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-2.29.0.tgz#e3fd8b3c08dce2562b80ef1b0b846597659d0cc3"
   dependencies:
