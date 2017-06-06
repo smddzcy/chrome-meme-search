@@ -21,7 +21,9 @@
     "extension",
     "react",
     "webpack",
-    "meme"
+    "meme",
+    "spotlight",
+    "search"
   ],
   "author": "Samed Düzçay <samedduzcay@gmail.com>",
   "license": "MIT",
