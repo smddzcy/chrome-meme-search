@@ -2,7 +2,7 @@
   "version": "0.1.0",
   "name": "Meme Search",
   "manifest_version": 2,
-  "description": "Spotlight search for memes. Press Ctrl + M, type in your keywords, and click on a meme to copy its URL!",
+  "description": "Spotlight search for memes. Press Ctrl + M on any page, type in your keywords, and click on a meme to copy its URL!",
   "icons": {
     "16": "img/icon-16.png",
     "48": "img/icon-48.png",

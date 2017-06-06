@@ -22,7 +22,6 @@ function loadScript(name, tabId, cb) {
   }
 }
 
-
 chrome.tabs.onUpdated.addListener(async (tabId) => {
   const result = await isInjected(tabId);
   if (chrome.runtime.lastError || result[0]) return;

@@ -20,8 +20,7 @@ function promisifyAll(obj, list) {
 
 // let chrome extension api support Promise
 promisifyAll(chrome, [
-  'tabs',
-  'browserAction'
+  'tabs'
 ]);
 
 require('./background/inject');
