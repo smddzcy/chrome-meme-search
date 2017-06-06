@@ -1,0 +1,214 @@
+.app {
+  display: block;
+  margin: 0;
+  padding: 20px;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  color: #212121;
+}
+
+.app *, .app input::placeholder {
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  letter-spacing: normal !important;
+}
+
+.app article, .app aside, .app footer, .app header, .app nav, .app section {
+  display: block;
+}
+
+.app h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.app figcaption, .app figure, .app main {
+  display: block;
+}
+
+.app figure {
+  margin: 1em 40px;
+}
+
+.app hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+.app pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.app a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.app abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+.app b, .app strong {
+  font-weight: inherit;
+}
+
+.app b, .app strong {
+  font-weight: bolder;
+}
+
+.app code, .app kbd, .app samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.app dfn {
+  font-style: italic;
+}
+
+.app mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+.app small {
+  font-size: 80%;
+}
+
+.app sub, .app sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.app sub {
+  bottom: -0.25em;
+}
+
+.app sup {
+  top: -0.5em;
+}
+
+.app audio, .app video {
+  display: inline-block;
+}
+
+.app audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+.app img {
+  border-style: none;
+}
+
+.app svg:not(:root) {
+  overflow: hidden;
+}
+
+.app button, .app input, .app optgroup, .app select, .app textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.app button, .app input {
+  overflow: visible;
+}
+
+.app button, .app select {
+  text-transform: none;
+}
+
+.app button, .app [type="button"], .app [type="reset"], .app [type="submit"] {
+  -webkit-appearance: button;
+}
+
+.app button::-moz-focus-inner, .app [type="button"]::-moz-focus-inner, .app [type="reset"]::-moz-focus-inner, .app [type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+.app button:-moz-focusring, .app [type="button"]:-moz-focusring, .app [type="reset"]:-moz-focusring, .app [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.app input:focus, .app button:focus {
+  outline: none !important;
+}
+
+.app fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+.app legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+.app progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.app textarea {
+  overflow: auto;
+}
+
+.app [type="checkbox"], .app [type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.app [type="number"]::-webkit-inner-spin-button, .app [type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.app [type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+.app [type="search"]::-webkit-search-cancel-button, .app [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.app ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+.app details, .app menu {
+  display: block;
+}
+
+.app summary {
+  display: list-item;
+}
+
+.app canvas {
+  display: inline-block;
+}
+
+.app template {
+  display: none;
+}
+
+.app [hidden] {
+  display: none;
+}

@@ -1,0 +1,32 @@
+.list {
+  max-height: calc(80vh - 85px);
+  overflow-y: auto;
+  box-sizing: border-box;
+  position: relative;
+  padding: 10px 20px;
+  top: -3px;
+  background: white;
+  box-shadow: rgba(50, 50, 50, 0.6) 0px 8px 25px;
+}
+
+/* InfiniteScroll div */
+.list > div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Copy notification styling */
+.list > div > span > div[class^='css'] {
+  width: 150px;
+}
+
+.list > div > span > div[class^='css'] > div:last-child,
+.list > div > span > div[class^='css'] > div:first-child {
+  display: none;
+}
+
+.list > div > span > div[class^='css'] > div {
+  margin: 0;
+}

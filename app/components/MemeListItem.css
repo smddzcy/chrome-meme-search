@@ -1,0 +1,30 @@
+.item, .gifItem {
+  box-sizing: border-box;
+  padding: 2px;
+  position: relative;
+}
+
+.gifItem::after {
+  content: 'GIF';
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.item img, .gifItem img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
